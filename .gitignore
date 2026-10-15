@@ -1,0 +1,27 @@
+# Gradle / build
+.gradle/
+.kotlin/
+build/
+
+# Android Studio / IntelliJ
+.idea/
+*.iml
+captures/
+.externalNativeBuild/
+.cxx/
+.DS_Store
+
+# Local machine config
+local.properties
+
+# Signing: never commit keystores or their passwords
+*.jks
+*.keystore
+keystore.properties
+
+# Old source snapshots kept only on the dev machine
+NotifBackup_source.zip
+legacy_kotlin_attempt.zip
+
+# Claude Code per-machine settings
+.claude/settings.local.json
